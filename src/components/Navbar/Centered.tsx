@@ -101,7 +101,7 @@ const CenteredNavbar = ({
                 href={each.path}
                 key={i}
                 passHref={true}
-                className="mx-2 font-normal"
+                className="mx-4 font-normal"
               >
                 {each.label}
               </LinkTo>

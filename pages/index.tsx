@@ -20,10 +20,10 @@ const Home = () => {
           </Text>
 
           <div className='flex justify-center mt-5 flex-wrap '>
-            <a href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center rounded-md bg-purple-800 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
+            <a href="/blog" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center rounded-md bg-purple-800 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>Ver posts recentes</span>
             </a>
-            <LinkTo href="/pages/about-us.tsx" passHref className='flex items-center justify-center rounded-md bg-purple-800 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
+            <LinkTo href="/pages/about-me.tsx" passHref className='flex items-center justify-center rounded-md bg-purple-800 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>Contato</span>
             </LinkTo>
 

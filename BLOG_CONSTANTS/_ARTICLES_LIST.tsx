@@ -54,7 +54,7 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/how-to-write-your-first-article.tsx",
+    path: "/pages/blog/postcarreira.tsx",
     featureArticle: true,
     preview: {
       author: SABRINA,
@@ -98,7 +98,7 @@ const ARTICLES_LIST: iArticle[] = [
       tags: "demo, layout, home layout",
       thumbnail: "/public/imp_assets/tutorials/home-layouts.svg",
       shortIntro: "In this article we will see Default Home Layout example.",
-      category: "layouts",
+      category: "antigos",
     },
     seo: {
       title: "Home Layout Example",

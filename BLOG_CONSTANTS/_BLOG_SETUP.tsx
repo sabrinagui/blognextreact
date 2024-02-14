@@ -35,7 +35,7 @@ export const MAYUR: IAuthor = {
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
+            link: 'https://www.linkedin.com/in/sabrina-mesquita-8a39a6205/'
         },
     ]
 }
@@ -48,11 +48,11 @@ export const RUPALI: IAuthor = {
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
+            link: 'https://github.com/sabrinagui'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
+            link: 'https://www.linkedin.com/in/sabrina-mesquita-8a39a6205/'
         },
     ]
 }
@@ -60,7 +60,7 @@ export const RUPALI: IAuthor = {
 export const SABRINA: IAuthor = {
     name: "Sabrina Mesquita",
     designation: "Front-end Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    bio: " Front-End Developer apaixonada pela tecnologia.",
     profilePic: "",
     social: [
         {
@@ -69,7 +69,7 @@ export const SABRINA: IAuthor = {
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
+            link: 'https://www.linkedin.com/in/sabrina-mesquita-8a39a6205/'
         },
     ]
 }
@@ -77,7 +77,7 @@ export const SABRINA: IAuthor = {
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
+export const WEBSITE_NAME: string = 'Sabrina Mesquita Blog';
 export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
 
 /**
@@ -106,15 +106,15 @@ export const PRIMARY_NAV: iNavSetup = {
         {
             // for categories don't add path and add type: dropdown and pass path empty
             label: 'Blog',
-            type: 'dropdown',
+            type: '',
             path: ''
         },
        
         
         
         {
-            label: 'Contact Us',
-            path: '/contact-us'
+            label: 'Contato',
+            path: '/contato'
         }
     ],
     // sideNavLinks are the links which appear when you open the side menu after clicking the burger menu icon.
@@ -134,31 +134,28 @@ export const PRIMARY_NAV: iNavSetup = {
        
         {
             label: 'Contato',
-            path: '/contact-us'
+            path: '/contato'
         }
     ],
     socials: [
         {
-            link: 'https://www.facebook.com/',
-            icon: <AiFillFacebook />
+            link: 'https://www.linkedin.com/in/sabrina-mesquita-8a39a6205/',
+            icon: <AiFillLinkedin />
         },
         {
-            link: 'https://www.instagram.com/',
+            link: 'https://www.instagram.com/sabrinamesquitaweb',
             icon: <AiFillInstagram />
         },
-        {
-            link: 'https://twitter.com/WebExpe',
-            icon: <AiOutlineTwitter />
-        },
+        
     ]
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
-    keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
+    title: "Blog por Sabrina Mesquita",
+    description: "Hobby ",
+    keywords: "Blog, next js, react js, next js blog, front end developer, typescript, nextjs typescript, react js blog, responsive blog template, portfolio",
     url: WEBSITE_URL,
     author: `${MAYUR.name}, ${RUPALI.name}`,
-    twitterHandle: '@WebExpe',
+    twitterHandle: '',
     ogImage: '/public/images/og-image.jpg'
 }
